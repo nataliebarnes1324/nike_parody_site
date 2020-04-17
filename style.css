@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding-top: 0;
+}
+
+
+
+
+
+
+.main-content {
+	margin-left: 64px;
+	margin-top: 45px;
+	margin-bottom: 5px;
+}
+
+.featured-container {
+  height: 40px;
+	align-items: center;
+	text-align: left;
+	margin-left: 64;
+  background-color: white;    
+}
+
+h1 {
+	font-family: "Futura Extra Bold";
+	font-style: bolder;
+	font-weight: 300px;
+	font-size: 52px;
+	line-height: 35pt;
+	letter-spacing: -1pt;
+	color: black;
+}
+
+h2 {
+	font-family: "Helvetica Neue Reg";
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 22pt;
+	color: black;
+}
+
+together .together {
+	align-items: center;
+	padding: 50px;
+	height: 200px;
+}
+
+.together_content {
+	text-align: center;
+}
+
+
+
+
+
+h4 {
+	font-family: "Helvetica Neue Reg";
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 18pt;
+	color: black;
+}
+
+
+
+
+
+.home-grid {
+	display: grid;
+	grid-template-columns: repeat(1, minmax(600px, 1fr));
+	grid-gap: 1.5rem;
+	margin: 0px 64px 64px 64px;
+}
+
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(250px, 1fr));
+	grid-gap: 1.5rem;
+	margin: 10px 64px 64px 64px;
+}
+
+
+h {
+	font-family: "Helvetica Neue Reg";
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 18pt;
+	color: black;
+}
+
+p {
+	font-family: "Helvetica Neue Reg";
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 18pt;
+	color: darkgray;
+}
+
+
+li, a, button {
+	font-family: "futura", sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+	letter-spacing: 1px;
+	color: #000000;
+	text-decoration: none;
+}
+
+footer .footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: left;
+	padding: 30px 2%;
+	height: 70px;
+	background-color: black;
+	bottom: 0;
+	width: 100%;
+}
+
+
+b {
+	font-family: "futura", sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+	color: white;
+	text-decoration: none;
+}
+
+promotion .promotion {
+	align-items: center;
+	padding: 11px;
+	height: 70px;
+  	border-bottom: 1px solid #EAEAEA;
+	background-color: rgba(248,248,248,1.00);
+}
+
+.promo_content {
+	text-align: center;
+}
+
+c {
+	font-family: "helvetica Neue Reg";
+	font-weight: 500;
+	font-size: 11pt;
+	line-height: 17pt;
+	color: black;
+	text-decoration: none;
+}
+
+d {
+	font-family: "helvetica Neue Reg";
+	font-weight: 500;
+	font-size: 9.5pt;
+	line-height: 15pt;
+	color: black;
+	text-decoration: underline;
+}
+
+header {
+	position: sticky;
+	top: 0;
+}
+
+header .section-1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 2%;
+	height: 70px;
+  	border-bottom: 1px solid #EAEAEA;
+	background-color: white;
+	width: 100%;
+}
+
+
+.logo {
+	cursor: pointer;
+	width: 65px;
+}
+
+.cart {
+	cursor: pointer;
+	width: 20px;
+}
+
+.nav_links {
+	list-style: none;
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+/*.nav_links li a {
+	transition: all 0.3s ease 0s;
+}*/
+
+.nav_links li a:hover {
+	padding-bottom: 26px;
+	border-bottom: 2px solid black;
+	justify-content: space-between;
+
+}
+
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('fonts/HelveticaNeueLTStd-Md.otf');
+}
+
+@font-face {
+	font-family: 'Futura';
+	src: url('fonts/FuturaStd-Condensed.otf');
+}
+
+@font-face {
+	font-family: 'Futura Bold';
+	src: url('fonts/FuturaStd-CondensedBold.otf');
+}
+
+@font-face {
+	font-family: 'Futura Extra Bold';
+	src: url('fonts/Futura Condensed Extra Bold.otf');
+}
+
+@font-face {
+	font-family: 'Helvetica Neue Reg';
+	src: url("fonts/HelveticaNeue.ttc");
+}
